@@ -1,0 +1,15 @@
+export component Button(props){
+  const { children, ...rest} = props;
+  console.log(children, rest)
+  <button {...rest} >
+    if(children) {
+      <children />
+    }
+  </button>
+
+   <style>
+      button {
+        padding: 16px;
+      }
+  </style>
+}

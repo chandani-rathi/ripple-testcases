@@ -1,4 +1,5 @@
 import { track } from "ripple";
+import { Button } from "@/components/ui/button.ripple"
 
 export component App() {
 	<div class='text-center'>
@@ -6,9 +7,9 @@ export component App() {
 		<div class='my-4 text-2xl flex items-center justify-center gap-4'>
 			let count = track(0);
 
-			<button class="hover:bg-gray-300/50 p-4 text-4xl rounded text-mid" onClick={() => @count--}>{'-'}</button>
+			<Button class="hover:bg-gray-300/50 p-4 text-4xl rounded text-mid" onClick={() => @count--}>{'-'}</Button>
 			<span class='font-bold text-3xl w-16'>{@count}</span>
-			<button class="hover:bg-gray-300/50 p-4 text-4xl rounded" onClick={() => @count++}>{'+'}</button>
+			<Button class="hover:bg-gray-300/50 p-4 text-4xl rounded" onClick={() => @count++}>{'+'}</Button>
 		</div>
 		<div>
 			<p>{'This is a basic Ripple application template.'}</p>
