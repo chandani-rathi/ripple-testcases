@@ -1,4 +1,4 @@
-# Ripple Basic Template
+# Ripple Vitest  Template
 
 A minimal Ripple application template with TypeScript and Vite.
 
@@ -13,7 +13,7 @@ A minimal Ripple application template with TypeScript and Vite.
 2. Start the development server:
 
     ```bash
-    npm run dev
+    npm run dev # or pnpm dev
     ```
 
 3. Build for production:
